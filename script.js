@@ -48,9 +48,9 @@ image.forEach(element3 => {
         if (element3.value == 'sapin') {
             illustration.innerHTML = '<img src="assets/img/sapin.png" alt="">';
         } else if (element3.value == 'cadeau'){
-            illustration.innerHTML = '<img src="/assets/img/bonhommeDeNeige (1).png" alt="">';
+            illustration.innerHTML = '<img src="assets/img/bonhommeDeNeige (1).png" alt="">';
         } else if (element3.value == 'pereNoel'){
-            illustration.innerHTML = '<img src="/assets/img/noel.png" alt="">';
+            illustration.innerHTML = '<img src="assets/img/noel.png" alt="">';
         }
     } )
 })
