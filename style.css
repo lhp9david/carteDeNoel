@@ -47,14 +47,14 @@ margin-left: auto;
 }
 
 .fond1{
-background-image: url(/assets/img/snow-g63ad05de0_1280.jpg) !important;
+background-image: url(assets/img/snow-g63ad05de0_1280.jpg) !important;
 background-size: cover;
 }
 .fond2{
-background-image:url(/assets/img/istockphoto-1341072568-612x612.jpg) !important;
+background-image:url(assets/img/istockphoto-1341072568-612x612.jpg) !important;
 }
 .fond3 {
-background-image: url(/assets/img/fond-de-noël-blanc-avec-l-arbre-et-les-décorations-81212313.jpg) !important;
+background-image: url(assets/img/fond-de-noël-blanc-avec-l-arbre-et-les-décorations-81212313.jpg) !important;
 }
 .param {
     font-size:1.2em ;
