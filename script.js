@@ -8,6 +8,7 @@ let illustration = document.querySelector('.image');
 
 inputTitre.addEventListener('keyup', ()=> {
     titreCarte.textContent = inputTitre.value;
+    inputTitre.maxLength = 30;
 })
 
 inputParagraphe.addEventListener('keyup', ()=> {
@@ -19,18 +20,7 @@ let christmas = document.querySelector('#christmas');
 let trebuchet = document.querySelector('#trebuchet');
 let roboto = document.querySelector('#roboto');
 
-// trebuchet.addEventListener('change',()=> {
-//     titreCarte.classList.add('trebuchet');
-//     texteCarte.classList.add('trebuchet');
-// })
-// christmas.addEventListener('change', ()=> {
-//     titreCarte.classList.add('christmas');
-//     texteCarte.classList.add('christmas');
-// })
-// roboto.addEventListener('change', ()=> {
-//     titreCarte.classList.add('roboto');
-//     texteCarte.classList.add('roboto');
-// })
+
 let police = document.querySelectorAll('[name="police"]');
 
 police.forEach(element => {
@@ -58,9 +48,9 @@ image.forEach(element3 => {
         if (element3.value == 'sapin') {
             illustration.innerHTML = '<img src="assets/img/sapin.png" alt="">';
         } else if (element3.value == 'cadeau'){
-            illustration.innerHTML = '<img src="assets/img/cadeau.png" alt="">'
+            illustration.innerHTML = '<img src="/assets/img/bonhommeDeNeige (1).png" alt="">';
         } else if (element3.value == 'pereNoel'){
-            illustration.innerHTML = '<img src="assets/img/pereNoelTraineau.png" alt="">'
+            illustration.innerHTML = '<img src="/assets/img/noel.png" alt="">';
         }
     } )
 })
@@ -93,3 +83,6 @@ function updateFirst(event) {
 document.querySelector('i').addEventListener('click', () => {
     print();
 });
+document.querySelector('.print').addEventListener('click', ()=> {
+    print();
+})

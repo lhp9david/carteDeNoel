@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
+body {
+    background-image: url(/assets/img/333125.jpg);
+    color:white
+}
 .card1 {
     /* background-color: green; */
    height: 90%;
@@ -8,9 +11,10 @@
    border: 1px solid black;
    margin: 4em auto;
 }
-.text {
+.texteCarte {
     font-size: 1.5em;
     font-weight: bold;
+    word-wrap: break-word;
 }
 .titre input {
     width: 40%;
@@ -43,8 +47,8 @@ margin-left: auto;
 }
 
 .fond1{
-background-color: rgb(83,19,29) !important;
-
+background-image: url(/assets/img/snow-g63ad05de0_1280.jpg) !important;
+background-size: cover;
 }
 .fond2{
 background-image:url(/assets/img/istockphoto-1341072568-612x612.jpg) !important;
@@ -60,6 +64,9 @@ background-image: url(/assets/img/fond-de-noël-blanc-avec-l-arbre-et-les-décor
 }
 i {
     font-size: 50px;
+    cursor: pointer;
+}
+.print {
     cursor: pointer;
 }
 
