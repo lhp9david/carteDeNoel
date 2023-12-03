@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
-    background-image: url(/assets/img/moon-g66be8bf02_1280.png);
+    background-image: url(assets/img/moon-g66be8bf02_1280.png);
     background-size: cover;
 }
 .card1 {
